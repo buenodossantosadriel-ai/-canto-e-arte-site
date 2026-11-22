@@ -52,12 +52,49 @@
 .price-disclaimer{font-size:11px;color:#758176;line-height:1.5}
 @media(max-width:760px){.animal-copy .animal-price{font-size:12px}.product-bottom{align-items:flex-start;flex-direction:column}}
 .continue-shopping{display:block;width:100%;margin:14px 0 18px;padding:13px 16px;border:2px solid #23865b;border-radius:14px;background:#fff;color:#145b3d;font-weight:900;cursor:pointer;transition:background .2s,color .2s}.continue-shopping:hover{background:#eaf2dd}@media(max-width:600px){.continue-shopping{padding:14px}}
+
+/* Identidade visual renovada: cores vivas e patinhas em destaque */
+:root{--green:#087a4b;--green2:#12a66a;--lime:#d8f34a;--cream:#fffef7;--ink:#123b2b;--muted:#5e7467;--line:#dcebdc;--yellow:#ffd43b;--coral:#ff765e;--sky:#c8f2e4}
+body{background:#fffef7;color:#123b2b}
+.topbar{background:linear-gradient(90deg,#075b3b,#0b9460,#075b3b);color:#f7ffda;font-weight:800;letter-spacing:.45px}
+.header{background:#fffffff2;border-bottom:2px solid #d9efbd;box-shadow:0 8px 24px #075b3b12}
+.nav{min-height:82px}
+.brand{gap:11px;font-weight:1000;letter-spacing:-1.2px;color:#075b3b}
+.brandmark{width:58px;height:58px;display:grid;place-items:center;border-radius:19px;background:linear-gradient(145deg,#d9f34c,#a9e934);color:#087a4b;border:3px solid #fff;box-shadow:0 0 0 3px #12a66a,0 8px 18px #087a4b35;transform:rotate(-5deg)}
+.brandmark svg{width:43px;height:43px;filter:drop-shadow(0 2px 1px #ffffff70)}
+.brand-name{font-size:22px;font-weight:1000;line-height:1.02}
+.brand-name b{color:#ff765e}
+.brand-name small{display:block;margin-top:5px;font-size:10px;letter-spacing:3.8px;font-weight:900;color:#f07842}
+.links a{font-weight:800;color:#275b43}
+.links a:hover{color:#0aa66a}
+.btn,.cart-trigger{border:0!important;background:linear-gradient(135deg,#0b9c62,#087347)!important;color:white!important;box-shadow:0 8px 18px #087a4b2e!important}
+.cart-count{background:#d8f34a!important;color:#16452e!important}
+.hero{background:radial-gradient(circle at 8% 15%,#d8f34a90 0,transparent 27%),radial-gradient(circle at 90% 85%,#8be5c4 0,transparent 35%),linear-gradient(125deg,#e4f8df,#fff9d9 58%,#d9f5eb)!important}
+.hero h1{color:#104b34;text-shadow:0 2px #ffffff80}
+.hero .kicker,.kicker{color:#0b9660;font-weight:950;letter-spacing:2px}
+.hero-art{box-shadow:0 24px 55px #087a4b35!important;border:7px solid #fff!important}
+.section h2{color:#104b34}
+.animals-section{background:linear-gradient(180deg,#effbdc,#e4f7ec)!important}
+.animal-card,.product{border:1px solid #d8ebd8!important;box-shadow:0 10px 28px #0b663414!important}
+.animal-card:hover,.product:hover{box-shadow:0 18px 38px #0b663426!important}
+.animal-copy a,.animal-copy .small-btn,.small-btn{background:linear-gradient(135deg,#0ca76b,#08764a)!important;color:#fff!important;border:0!important;box-shadow:0 5px 12px #087a4b22}
+.animal-copy a:hover,.small-btn:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.product-visual span{background:#d8f34a!important;color:#16452e!important;font-weight:950}
+.filter.active,.filter:hover{background:#087a4b!important;color:#fff!important;border-color:#087a4b!important}
+.cart-panel{background:#092f22b8!important}
+.cart-box{border:2px solid #d8f34a!important;box-shadow:0 24px 80px #073d2c45!important}
+.cart-head{background:linear-gradient(90deg,#087a4b,#12a66a)!important;color:#fff!important}
+.continue-shopping{border-color:#0b9c62!important;color:#087a4b!important;background:#f0fbdc!important}
+.continue-shopping:hover{background:#d8f34a!important}
+.footer{background:linear-gradient(110deg,#073e2b,#087a4b)!important;color:#efffe7!important}
+.wa-float{background:#12a66a!important;box-shadow:0 8px 22px #087a4b55!important}
+@media(max-width:760px){.brandmark{width:51px;height:51px;border-radius:17px}.brandmark svg{width:39px;height:39px}.brand-name{font-size:19px}}
 </style>
 </head>
 <body>
 <div class="topbar">🐾 Cuidado, carinho e qualidade para o seu melhor amigo!</div>
 <header class="header"><div class="wrap nav">
-<a class="brand" href="#inicio"><span class="brandmark">🐾</span><span>CANTO & ARTE<small>PET SHOP</small></span></a>
+<a class="brand" href="#inicio"><span class="brandmark" aria-label="Logo com patinhas"><svg viewBox="0 0 100 100" role="img" aria-hidden="true"><ellipse cx="50" cy="63" rx="25" ry="20" fill="currentColor"/><ellipse cx="20" cy="37" rx="10" ry="14" transform="rotate(-25 20 37)" fill="currentColor"/><ellipse cx="40" cy="20" rx="10" ry="14" transform="rotate(-8 40 20)" fill="currentColor"/><ellipse cx="62" cy="20" rx="10" ry="14" transform="rotate(8 62 20)" fill="currentColor"/><ellipse cx="81" cy="38" rx="10" ry="14" transform="rotate(25 81 38)" fill="currentColor"/></svg></span><span class="brand-name">CANTO <b>&</b> ARTE<small>PET SHOP</small></span></a>
 <nav class="links"><a href="#animais">Animais</a><a href="#catalogo">Catálogo</a><a href="#servicos">Serviços</a><a href="#lojas">Nossas lojas</a><a href="#contato">Contato</a></nav>
 <div style="display:flex;align-items:center;gap:9px"><button class="cart-trigger" id="openCart" type="button">🛒 Carrinho <span class="cart-count" id="cartCount">0</span></button><a class="btn" href="#animais">Conhecer animais <span>→</span></a></div>
 </div></header>
